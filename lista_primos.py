@@ -18,7 +18,7 @@ numero = int(input("Introduzca un número:"))
 es_primo = True
 cadena = []
 #Proceso 
-for i in range(2, numero):
+for i in range(2, numero+1):
     es_primo = True
     for x in range(2, i):
         if i % x == 0:
